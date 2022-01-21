@@ -106,8 +106,8 @@ h1{
 }
 .category .box-container .box .content{
 	
-	text-align: center;
-	transition: 0.5s;
+    text-align: center;
+    transition: 0.5s;
     height: 482px;
 }
 .category .box-container .box .content p{
@@ -117,28 +117,27 @@ h1{
     font-weight: 900;
     font-size: 24px;
     line-height: 36px;
-	padding: 0px 24px;
+    padding: 0px 24px;
     text-align: left;
     margin: 24px 0 16px 0;
 }
 .category .box-container .box .content .description{
+    color: #2F2F2F;
+    
+    height: 121px;
+    text-align: left;
 	
     font-family: Arial;
-	color:black;
-	font-size: 16px;
-	height: 121px;
-    text-align: left;
-    color: #2F2F2F;
     line-height: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: normal;
+	
     margin: 0 24px;
 }
 .btn{
-    
-	
-	display: inline-block;
-	margin: 0px 24px 24px 24px;
+    display: inline-block;
+    margin: 0px 24px 24px 24px;
     height: 48px;
 
     text-align: center;
@@ -149,9 +148,9 @@ h1{
 
     border: 2px solid #42940F;
     border-radius: 8px;
-	color:#42940F;
-	background: white;
-	cursor: pointer;
+    color:#42940F;
+    background: white;
+    cursor: pointer;
 
     font-family: Arial;
     font-style: normal;
@@ -161,24 +160,23 @@ h1{
     
 }
 .btn:hover{
-	color:white;
+    color:white;
     background: #42940F;
     border: 2px solid #42940F;
 }
 .btn-end{
     
-	
-	display: inline-block;
-	margin: 0px 24px 24px 24px;
+    display: inline-block;
+    margin: 0px 24px 24px 24px;
     height: 48px;
 
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-	line-height: 25px;
+    line-height: 25px;
 	
-	cursor: pointer;
+    cursor: pointer;
 
     font-family: Arial;
     font-style: normal;
