@@ -1,0 +1,115 @@
+body,
+img,
+figcaption {
+    margin: 0em;
+    font-family: sans-serif;
+    font-family: serif;
+    background: cornsilk;
+    text-align: center;
+}
+
+.legacy  {
+    font-family: Arial;
+    color: black;
+    
+}
+.article__article {
+    background: red;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: left;
+}
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.article__lead {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+}
+
+article[class="article"]:not(article[class="article"]):not(article[class="article"]) figure {
+    margin-top: 16px;
+    margin-right: 94px;
+    margin-bottom: 154px;
+    margin-left: 51px;
+    margin: 144px;
+}
+
+
+figure {
+    margin-top: 16px;
+    margin-right: 0;
+}
+
+
+article[class*="a"],
+head ~ article[class*="ar"],
+body > html > article[class*="art"],
+html article[class*="arti"] {
+    background: rgba(255, 0, 0, 0);
+}
+
+html > head + body > main > article > figure {
+    margin-left: 0;
+}
+
+html article[class*="arti"] {
+    font-style: sans-serif;
+}
+
+figure > img:not(ul) {
+    transform: translateX(-4214px) rotate(720deg);
+    margin-bottom: 1rem;
+}
+
+
+html:not(div) {
+    font-family: sans-serif;
+}
+
+img {
+    position: relative;
+    left: 4214px;
+    height: auto;
+    margin-bottom: 8px;
+    max-width: 100%;
+    font-family: sans-serif;
+}
+
+
+.figure__caption {
+    margin: 8px 0 0;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+html:not(div) > head ~ body >  * > figure > img:first-child {
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.article {
+    background: rgba(255, 0, 0, 0);
+    font-family: sans-serif;
+    padding: 24px;
+}
+
+body > main > .article,
+.article {
+    max-width: 680px;
+    font-family: sans-serif;
+}
+
+
+h1 {
+    margin: 0 0 1.5rem 0;
+    color: palevioletred
+}
