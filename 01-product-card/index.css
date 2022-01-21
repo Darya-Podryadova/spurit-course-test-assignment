@@ -1,0 +1,240 @@
+/* Смотри сколько снизу свободного места! Оно идеально подойдёт, чтобы писать твои стили! */
+
+body{
+    height: 800px;
+}
+h1{
+    width: 100%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
+    font-weight: 900;
+    margin: 40px 0 0 0 ;
+    text-align: center;
+}
+
+.category{
+    padding-top: 1px;
+}
+.category .row{
+    margin-top: 152px;
+	text-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+	
+}
+.category .box-container{
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1;
+	margin: 40px;
+}
+.category .box-container .box{
+	align-items: center;
+	position: relative;
+	width: 380px;
+    min-height: 482px;
+	margin: 10px 10px;
+	box-shadow: 0 4px 2px 4px rgba(0,0,0,0.2);
+	border-radius: 12px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ffffff;
+	
+}
+.category .box-container .box img{
+	height: auto;
+	width: 100%;
+    border-radius: 12px 12px 0 0;
+    position: relative;
+    
+    
+}
+.category .box-container .box .nadp{
+    position: absolute;
+    top: 16px;
+    width: 100%;
+    
+    text-align: left;
+    
+}
+
+.category .box-container .box .nadp div{
+    display: inline-block;
+    margin-left: 16.73px;
+    
+}
+.category .box-container .box .nadp  .flag1{
+   
+    left: 0.65%;
+    right: 0.25%;
+    top: 1.32%;
+    bottom: 2.68%;
+    font-family: Arial;
+
+    font-weight:400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 110px;
+
+    align-items: center;
+    text-align: center;
+
+    background: #FDCFF3;
+    border-radius: 8px;
+}
+.category .box-container .box .nadp .flag2{
+    
+    width: 134.41px;
+    height: 24px;
+    left: 0.73px;
+    top: 0.33px;
+    font-family: Arial;
+    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    background: #FFCF56;
+    border-radius: 8px;
+}
+.category .box-container .box .content{
+	
+	text-align: center;
+	transition: 0.5s;
+    height: 482px;
+}
+.category .box-container .box .content p{
+
+    font-family: Arial;
+    
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+	padding: 0px 24px;
+    text-align: left;
+    margin: 24px 0 16px 0;
+}
+.category .box-container .box .content .description{
+	
+    font-family: Arial;
+	color:black;
+	font-size: 16px;
+	height: 121px;
+    text-align: left;
+    color: #2F2F2F;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 24px;
+}
+.btn{
+    
+	
+	display: inline-block;
+	margin: 0px 24px 24px 24px;
+    height: 48px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+
+    border: 2px solid #42940F;
+    border-radius: 8px;
+	color:#42940F;
+	background: white;
+	cursor: pointer;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    
+}
+.btn:hover{
+	color:white;
+    background: #42940F;
+    border: 2px solid #42940F;
+}
+.btn-end{
+    
+	
+	display: inline-block;
+	margin: 0px 24px 24px 24px;
+    height: 48px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	line-height: 25px;
+	
+	cursor: pointer;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    
+    border-radius: 8px;
+
+    color: white;
+    background: #4E4E4E;
+    border: 1px solid #4E4E4E;
+}
+.btn:active {
+    background: #1F5200;
+    border: 2px solid #1F5200;
+    transition: background 0s;
+  }
+
+
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 24px
+    }
+    .btn{
+        line-height: 16.67px;
+        font-size: 15px;
+    }
+    .btn-end{
+        line-height: 16.67px;
+        font-size: 15px;
+    }
+    .category .box-container .box .content .description{
+        font-size: 15px;
+        line-height: 16px;
+       
+        
+    }
+    
+}
+
+@media (max-width: 1200px) and (min-width: 361px) {
+    h1 {
+        font-size: calc(1.5rem + 24 * (100vw - 320px) / 880);
+    }
+    
+}
+
+@media (min-width: 1201px) {    
+    h1 {
+        font-size: 48px;
+    }
+    .btn{
+        line-height: 25px;
+        font-size: 18px;
+    }
+}  
+    
